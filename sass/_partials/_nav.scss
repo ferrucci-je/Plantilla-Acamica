@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-top: 3%;
+    img {
+        width: 10%;
+        height: 10%;
+
+    }
+    .items {
+        display: inline-flex;
+        float: right;
+    ul {
+        display: flex;
+        justify-content: flex-end;
+        li {
+            display: flex;
+            list-style: none;
+            padding-top: 3%;
+            margin-left: 6px;
+        }
+    }
+}
+}

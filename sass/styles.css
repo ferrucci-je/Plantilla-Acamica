@@ -1,0 +1,112 @@
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+
+nav img {
+  width: 10%;
+  height: 10%;
+}
+
+nav .items {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  float: right;
+}
+
+nav .items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+nav .items ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 3%;
+  margin-left: 6px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 3%;
+}
+
+header .text h1, header .text span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3%;
+  width: 80%;
+}
+
+header img {
+  padding-top: 3%;
+  padding-right: 3%;
+}
+
+main {
+  margin-left: 3%;
+}
+
+main .imgs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .imgs img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3%;
+  width: 40%;
+  padding-left: 5%;
+  border-radius: 75%;
+  height: 450px;
+  width: 575px;
+}
+
+main span {
+  display: inline-block;
+  width: 25%;
+  margin-left: 22%;
+  margin-top: 3%;
+  font-size: 32px;
+}
+
+main button {
+  display: block;
+  margin-left: 25%;
+  width: 600px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 75px;
+  font-size: 28px;
+}
+
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1220px;
+}
+/*# sourceMappingURL=styles.css.map */

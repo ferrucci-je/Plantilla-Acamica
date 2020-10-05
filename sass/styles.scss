@@ -1,0 +1,9 @@
+@import './_partials/nav', './_partials/header', './_partials/footer', './_partials/main';
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1220px;
+}

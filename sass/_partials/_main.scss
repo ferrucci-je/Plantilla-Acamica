@@ -1,0 +1,33 @@
+main {
+    margin-left: 3%;
+    .imgs { 
+        display: flex;
+    img {
+        display: flex;
+        padding-top: 3%;
+        width: 40%;
+        padding-left: 5%;
+        border-radius: 75%;
+        height: 450px;
+        width: 575px;
+    }
+}
+    span {
+        display: inline-block;
+        width: 25%;
+        margin-left: 22%;
+        margin-top: 3%;
+        font-size: 32px;
+    }
+
+    button {
+        display: block;
+        margin-left: 25%;
+        width: 600px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: 75px;
+        font-size: 28px;
+    }
+
+}
